@@ -1,4 +1,4 @@
-##🌡 Temperature Converter (SOAP API)
+## 🌡 Temperature Converter (SOAP API)
 A simple Temperature Converter Web App that uses the W3Schools SOAP API to convert temperatures between Celsius and Fahrenheit in real-time — directly from the browser.
 ![App Preview](./images/AppPreview.png)
 
