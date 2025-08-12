@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./images/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 180px auto;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.instruction {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.converter-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005ec4;
+}
+
+.result-card {
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
