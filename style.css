@@ -15,6 +15,7 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: center;
 }
+
 h1 {
     margin-bottom: 10px;
     color: #333;
@@ -57,4 +58,39 @@ button:hover {
     background-color: #fafafa;
     border-radius: 8px;
     border: 1px solid #ddd;
+}
+
+/* 📱 Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        margin: 60px 15px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .instruction {
+        font-size: 13px;
+    }
+
+    .converter-box {
+        flex-direction: column;
+        gap: 8px;
+        align-items: stretch;
+    }
+
+    input, select, button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    .result-card {
+        font-size: 14px;
+    }
 }
