@@ -56,6 +56,6 @@ Open index.html in your browser.
 Enter a temperature, select conversion type, and click Convert.
 
 🖼 Preview
-<img src="C:\Users\fahad\Desktop\SoapApiProjects\TemperatureConvertor\images\Celsius to Farenheit.png" alt="C to F" width="400">
-C:\Users\fahad\Desktop\SoapApiProjects\TemperatureConvertor\images\Farenheit to Celcius.png
+![App Preview](./images/Celcius to Farenheit.png)
+![App Preview](./images/Farenheit to Celcius.png)
 
